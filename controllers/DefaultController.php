@@ -1,8 +1,8 @@
 <?php
 
-namespace funson86\setting\controllers;
+namespace strochkov\setting\controllers;
 
-use funson86\setting\models\Setting;
+use strochkov\setting\models\Setting;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\web\Controller;

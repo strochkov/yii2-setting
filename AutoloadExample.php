@@ -1,6 +1,6 @@
 <?php
 
-namespace funson86\setting;
+namespace strochkov\setting;
 
 /**
  * This is just an example.

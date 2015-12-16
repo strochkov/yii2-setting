@@ -1,11 +1,11 @@
 <?php
 
-namespace funson86\setting;
+namespace strochkov\setting;
 use Yii;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'funson86\setting\controllers\frontend';
+    public $controllerNamespace = 'strochkov\setting\controllers\frontend';
 
     protected $_isBackend;
 
@@ -13,7 +13,7 @@ class Module extends \yii\base\Module
     {
         parent::init();
 
-        $this->setViewPath('@funson86/setting/views');
+        $this->setViewPath('@strochkov/setting/views');
     }
 
     /**
@@ -44,7 +44,7 @@ class Module extends \yii\base\Module
      */
     public static function t($category, $message, $params = [], $language = null)
     {
-        return Yii::t('funson86/' . $category, $message, $params, $language);
+        return Yii::t('strochkov/' . $category, $message, $params, $language);
     }
 
     /**

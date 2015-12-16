@@ -1,5 +1,5 @@
 {
-    "name": "funson86/yii2-setting",
+    "name": "strochkov/yii2-setting",
     "description": "Yii2 Setting for other application",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","setting"],
@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Funson Lee",
-            "email": "funson86@gmail.com"
+            "email": "strochkov@gmail.com"
         }
     ],
     "require": {
@@ -15,10 +15,10 @@
     },
     "autoload": {
         "psr-4": {
-            "funson86\\setting\\": ""
+            "strochkov\\setting\\": ""
         }
     },
     "extra": {
-        "bootstrap": "funson86\\setting\\Bootstrap"
+        "bootstrap": "strochkov\\setting\\Bootstrap"
     }
 }

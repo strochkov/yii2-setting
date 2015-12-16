@@ -1,9 +1,9 @@
 <?php
 
-namespace funson86\setting\models;
+namespace strochkov\setting\models;
 
 use Yii;
-use funson86\setting\Module;
+use strochkov\setting\Module;
 
 /**
  * This is the model class for table "setting".

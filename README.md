@@ -1,6 +1,6 @@
 Yii2 Setting
 =========
-Yii2 Setting for other application, especially for [Yii2 Adminlte](https://github.com/funson86/yii2-adminlte)
+Yii2 Setting for other application, especially for [Yii2 Adminlte](https://github.com/strochkov/yii2-adminlte)
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require funson86/yii2-setting "*"
+php composer.phar require strochkov/yii2-setting "*"
 ```
 
 or add
 
 ```
-"funson86/yii2-setting": "*"
+"strochkov/yii2-setting": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -32,14 +32,14 @@ Once the extension is installed, simply use it in your code by  :
 Migration run
 
 ```php
-yii migrate --migrationPath=@funson86/setting/migrations
+yii migrate --migrationPath=@strochkov/setting/migrations
 ```
 
 ### Config /common/config/main.php to use Yii::$app->setting
 ```php
     'components' => [
         'setting' => [
-            'class' => 'funson86\setting\Setting',
+            'class' => 'strochkov\setting\Setting',
         ],
     ],
 ```
@@ -49,8 +49,8 @@ yii migrate --migrationPath=@funson86/setting/migrations
 ```php
     'modules' => [
         'setting' => [
-            'class' => 'funson86\setting\Module',
-            'controllerNamespace' => 'funson86\setting\controllers'
+            'class' => 'strochkov\setting\Module',
+            'controllerNamespace' => 'strochkov\setting\controllers'
         ],
     ],
 ```

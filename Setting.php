@@ -1,6 +1,6 @@
 <?php
 
-namespace funson86\setting;
+namespace strochkov\setting;
 use Yii;
 
 class Setting extends \yii\base\Component
@@ -9,7 +9,7 @@ class Setting extends \yii\base\Component
     {
         if(!$code) return ;
 
-        $setting = \funson86\setting\models\Setting::find()->where(['code' => $code])->one();
+        $setting = \strochkov\setting\models\Setting::find()->where(['code' => $code])->one();
 
         if($setting)
             return $setting->value;
