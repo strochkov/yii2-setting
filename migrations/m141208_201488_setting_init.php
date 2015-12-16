@@ -23,7 +23,8 @@ class m141208_201488_setting_init extends Migration
     public function up()
     {
         // MySql table options
-        $tableOptions = 'CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE=InnoDB';
+        //$tableOptions = 'CHARACTER SET utf8 COLLATE utf8_general_ci ENGINE=InnoDB';
+        $tableOptions = '';
 
         // table blog_catalog
         $this->createTable(
